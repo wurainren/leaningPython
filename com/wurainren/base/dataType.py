@@ -41,8 +41,12 @@ print(L[2][2])
 #有序列表元组：tuple。
 # tuple和list非常类似，但是tuple一旦初始化就不能修改
 
+myClassName = ('Michael', 'Bob', 'Tracy')
 
-
-
+t=(1,2)
+print(t)
+print(t[0])
+print(t[1])
+print(t[-1])
 
 #list和tuple是Python内置的有序集合，一个可变，一个不可变。根据需要来选择使用它们
